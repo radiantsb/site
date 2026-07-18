@@ -5,6 +5,13 @@ body{
   font-weight: 500;
   font-style: normal;
 }
+.card{
+  border-radius:25px;
+  border: 2px solid #2AC3DE;
+  padding-left:10px;
+  padding-right:10px;
+  display: inline-block
+}
 h1{
   color:#A6AED3
 }

@@ -1,0 +1,10 @@
+---
+layout: layout.html
+---
+<p>such an amazing website ikr</p>
+{% for post in collections.post %}
+<div class="card">
+  <a href={{post.url}}><h2>{{post.data.title}}</h2></a>
+  <p>{{post.data.quote}}</p>
+</div>
+{% endfor %}
