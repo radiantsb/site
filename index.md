@@ -1,1 +1,4 @@
-# my amazing website wow so amazing and good
+---
+layout: layout.html
+---
+such an amazing website ikr
