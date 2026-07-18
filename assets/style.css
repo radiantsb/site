@@ -1,0 +1,16 @@
+body{
+  background-color:#1A1B26;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+h1{
+  color:#A6AED3
+}
+p {
+  color:#A6AED3
+}
+a{
+  color:#9ECE6A
+}

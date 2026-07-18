@@ -1,5 +1,5 @@
 ---
 title: "Hello world"
+quote: "Very original title (and a very original thing to say about it)"
 ---
-very creative first post name
-and a very creative thing to say about it that nobody has said before, especially not asahi
+this is the first, definetely not last *and hopefully not second last* blog post on here
