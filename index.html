@@ -2,9 +2,15 @@
 layout: layout.html
 ---
 <p>such an amazing website ikr</p>
+<h2>Buttons, wow</h2>
+<p>i dont have a button yet but heres one from asahi who gave me some help making this site</p>
+<a href="https://asahi.glamour.ovh/" style="text-decoration:none;image-rendering:pixelated;"><img src="https://asahi.glamour.ovh/assets/buttons/asahi.png" alt="Asahi"></a> 
+<h2>Blog posts</h2>
 {% for post in collections.post %}
+<div>
 <div class="card">
   <a href={{post.url}}><h2>{{post.data.title}}</h2></a>
   <p>{{post.data.quote}}</p>
 </div>
+<div>
 {% endfor %}
