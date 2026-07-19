@@ -10,7 +10,7 @@ First, I installed claude code, as it was the one people talked about the most o
 Seeing the paywall I was ready to call this experiment a failure before it even started, but for some reason I continued, and found that opencode has a free plan, perfect.
 
 ## Actually vibecoding
-The first thing I used opencode for was some refactoring of a project that I had recently started, a tui library in rust, I hadn't put a huge amount of time Into it yet but enough that having all the code in one file was an issue, so I prompted to agent to split main.rs into multiple files while maintaining the same functionality, and to its credit, that worked fine, although gave me less of an understanding of the codebase compared to if I had done it myself.
+The first thing I used opencode for was some refactoring of a project that I had recently started, a tui library in rust, I hadn't put a huge amount of time Into it yet but enough that having all the code in one file was an issue, so I prompted the agent to split main.rs into multiple files while maintaining the same functionality, and to its credit, that worked fine, although gave me less of an understanding of the codebase compared to if I had done it myself.
 
 The problems really only started when it was actually writing code. Asking it to implement a certain function it would work for a bit, compile it a few times to test and make a half-decent function, however, when i added more functionality myself, and then tried to use the same agent session for debugging, i noticed the first *major* issue, opencode thought it was the only thing working on this code, and couldn't understand that I would change stuff, causing it to work off of false assumptions about the content of the code.
 
